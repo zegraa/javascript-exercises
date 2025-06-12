@@ -2,6 +2,7 @@ function numberChecker(number) {
   if (number >= 10) {
     return true;
   } else {
+    if (number < 10)
     return false;
   }
 }
