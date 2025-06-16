@@ -13,12 +13,13 @@ const birthYear = 1947;
 const thisYear = 1965;
 const firstName = Carlos;
 const lastName = Stevenson;
-const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " +(thisYear - birthYear) + "years old.";
+
+const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
 
 console.log(greeting);
 
 // Do not change this
-/*module.exports = {
+module.exports = {
   firstName: typeof firstName === 'undefined' ? undefined : firstName,
   lastName: typeof lastName === 'undefined' ? undefined : lastName,
   thisYear: typeof thisYear === 'undefined' ? undefined : thisYear,
@@ -26,4 +27,4 @@ console.log(greeting);
   greeting: typeof greeting === 'undefined' ? undefined : greeting,
   fullName: typeof fullName === 'undefined' ? undefined : fullName,
   age: typeof age === 'undefined' ? undefined : age
-}*/
+}
